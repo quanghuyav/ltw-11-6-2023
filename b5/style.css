@@ -1,0 +1,96 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* h1 {
+    color: aqua;
+    background-color: red;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid yellow;
+    font-style:italic;
+    text-decoration: line-through;
+    height: 300px;
+    max-height: 300px;
+    min-height: 150px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    opacity: 1;
+    text-align: center;
+    border-radius: 10% ;
+    cursor: cell;
+} */
+
+/* div {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 20px solid #ccc;
+    background-color: rgba(111, 222, 222,0.4);
+    background-image: url("https://i0.wp.com/thatnhucuocsong.com.vn/wp-content/uploads/2022/09/anh-anime-chibi.jpg?ssl\\u003d1"), linear-gradient(90deg,red,yellow) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+} */
+
+/* .container{
+    background-color: red;
+    width: 700px;
+    height: 3700px;
+}
+
+.item1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 300px;
+ 
+}
+
+.mini-item{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+}
+
+.item2{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+} */
+
+
+.container {
+    border: 5px solid #ccc;
+    display: flex;
+    height: 300px;
+    align-items: stretch;
+
+}
+
+.item {
+    font-size: 30px;
+    font-weight: 500;
+    height: 100px;
+    border: 2px solid red;
+    flex-basis: 40px;
+}
+
+.item1{
+    order: 4;
+    flex-shrink: 2;
+}
+.item2 {
+    order: 1;
+
+}
+.item3 {
+}
