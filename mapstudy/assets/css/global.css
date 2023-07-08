@@ -354,3 +354,13 @@
   [hidden] {
     display: none;
   }
+
+  .mgr-4 {
+      margin-right: 4px;
+  }
+
+  .container-12 {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
