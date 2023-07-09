@@ -212,6 +212,62 @@
 
 }
 
+.social-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.social-title {
+    color: #495057;
+    font-weight: 500;
+}
+
+.courses-type{
+    text-align: center;
+    margin: 24px 0;
+   
+    
+}
+
+.courses-type div{
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0763c6;
+    color: #2970b8;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.course-img img {
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.course-item {
+    background-color: white;
+    box-shadow:  0 0 5px 0 hsla(0,0%,64.7%,.75);
+    border-radius: 4px;
+
+}
+
+.course-title {
+    color: #2970b8;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    padding: 6px;
+}
+
+.course-teacher {
+    color: #495057;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 6px;
+}
+.course-teacher span {
+    color: #ff4d4f;
+}
 
 
 @keyframes hotlineBling {

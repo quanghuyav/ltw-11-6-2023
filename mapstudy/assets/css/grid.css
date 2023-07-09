@@ -434,6 +434,14 @@
 }
 
 /* Tablet - PC low resolution */
+
+@media (max-width:1200px) {
+    .wide .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 @media (min-width: 740px) and (max-width: 1023px) {
     /* .wide {
         width: 644px;
@@ -446,7 +454,7 @@
         width: 984px;
     } */
 
-    .wide .row {
+    /* .wide .row {
         margin-left: -12px;
         margin-right: -12px;
     }
@@ -464,7 +472,7 @@
     .wide .row.sm-gutter .col {
         padding-left: 5px;
         padding-right: 5px;
-    }
+    } */
 
     .wide .l-0 {
         display: none;
