@@ -17,6 +17,11 @@
     margin-right: -4px;
 }
 
+.grid.spacing > .row {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 .row.no-gutters {
     margin-left: 0;
     margin-right: 0;
@@ -430,16 +435,16 @@
 
 /* Tablet - PC low resolution */
 @media (min-width: 740px) and (max-width: 1023px) {
-    .wide {
+    /* .wide {
         width: 644px;
-    }
+    } */
 }
 
 /* > PC low resolution */
 @media (min-width: 1024px) and (max-width: 1239px) {
-    .wide {
+    /* .wide {
         width: 984px;
-    }
+    } */
 
     .wide .row {
         margin-left: -12px;

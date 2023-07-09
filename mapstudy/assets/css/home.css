@@ -76,7 +76,9 @@
     align-items: center;
     justify-content: center;
     height: 44px;
+    width: 60px;
     cursor: pointer;
+    
 }
 
 
@@ -115,6 +117,119 @@
     background-color: #20BCF0;
 }
 
+.main-img img {
+    width: 100%;
+}
+
+.main-contact {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f05225;
+    border-radius: 4px;
+}
+
+.contact-header {
+    padding: 14px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase ;
+    background: linear-gradient(270deg,#ff8100,#f05225);
+
+}
+
+.contact-info {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.contact-img {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+}
+.contact-img img {
+    width: 75%;
+    border: 3px solid #20BCF0;
+    border-radius: 50%;
+
+}
+
+
+.contact-content {
+    flex-basis: 70%;
+}
+.contact-content-header {
+    color: #495057;
+    font-weight: 500;
+}
+
+.contact-content-item{
+    font-size: 14px;
+    display: block;
+    color: #1890ff;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.countdown {
+    text-align: center;
+    color: #495057;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+
+.contact-hotline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-hotline-icon {
+    display: inline-block;
+    font-size: 20px;
+    color: #b70100;
+    padding: 14px;
+    background-color: #ffefef;
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-right: 12px;
+    animation: hotlineBling .8s ease-in-out alternate infinite;
+}
+
+
+.hotline {
+    color: #f05325;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+
+
+@keyframes hotlineBling {
+    from {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    to {
+        transform: rotate(30deg);
+        opacity: 0.5
+
+    }
+  }
+
+
+
+
+
 
 
 @media (max-width: 860px) {
@@ -141,4 +256,10 @@
         flex-direction: column;
     }
 
+}
+
+@media (max-width: 1023px) and (min-width: 400px) {
+    .contact-img {
+        flex-basis: 100px;
+    }
 }
