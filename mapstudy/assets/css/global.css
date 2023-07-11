@@ -355,6 +355,32 @@
     display: none;
   }
 
+  
+  iframe,img,svg {
+    display: block;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 10px; /* Độ rộng của thanh cuộn */
+  }
+  
+  /* Thiết lập phần cuối của thanh cuộn */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Màu nền của phần cuối */
+  }
+  
+  /* Thiết lập phần di chuyển trong thanh cuộn */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Màu nền của phần di chuyển */
+  }
+  
+  /* Thiết lập phần di chuyển khi di chuột qua */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Màu nền khi di chuột qua */
+  }
+
+
   .mgr-4 {
       margin-right: 4px;
   }
