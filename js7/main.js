@@ -1,42 +1,50 @@
-// const contentElement = document.getElementById("content")
+// Tìm ra element
+// Trong element (là 1 obj) có những thuộc tính và phương thức
+// Sử dụng những thuộc tính và phương thức để tương tác với element và với những atr của element đó
 
-// console.log(contentElement)
+// const item1Element = document.getElementById("item1")
+
+// console.log("element:" , item1Element)
 
 // const itemElements = document.getElementsByClassName("item")
 
 // console.log(itemElements)
 
-// const h3Elements = document.getElementsByTagName("h3")
+// const divElements = document.getElementsByTagName("div")
 
-// console.log(h3Elements)
+// console.log(divElements)
 
-// const firstItemElement = document.querySelector(".item")
+// const element = document.querySelector(".item")
 
-// console.log(firstItemElement)
+// console.log( element)
+
+// const elements = document.querySelectorAll(".item")
+
+// console.log( elements)
+
 // const container = document.querySelector(".container")
-// console.log(container)
 
-// const itemElements = container.querySelectorAll(".item")
+// console.log(container.querySelectorAll(".item"))
 
-// console.log(itemElements)
+// const item  = document.querySelectorAll(".item")[0]
 
-// 
+// item.className="item t-blue"
+// item.title = "hello"
+// console.log(item.tagName)
 
-// const containerElement = document.querySelector(".container")
 
-// // containerElement.className = "container red"
-// // containerElement.title = "container"
-// // console.log(containerElement.className)
+// item.setAttribute("abc", "Hello")
 
-// containerElement.setAttribute("hràestgef", "abdad")
+// console.log(item.getAttribute("title"))
+// console.log(item.classList)
 
-// console.log(containerElement.getAttribute("class"))
 
-const containerElement = document.querySelector(".container")
+// console.log(item.classList.toggle("item"))
 
-const itemElement = document.querySelector(".item")
+// console.log(item.classList)
 
-containerElement.innerHTML = "<h1 class = 'heading'>hello<h1>"
+const container = document.querySelector(".container")
 
-console.log(containerElement.innerHTML)
+container.outerHTML = "<h1 class  = 'red'>hello</h1>"
 
+console.log(container.outerHTML)
