@@ -8,17 +8,17 @@
 
 //  var(let,const) [tên biến] = [biểu thức] // biểu thức là những đoạn code mà trả về giá trị
 
-var x = 1;
-var X = 1;
-let y;
-const PI = 3.14; 
-const c = 3*(10**8)
-var x1$
-let y_2
-const ____z_____
-const name = "huy"
-const oidf = "huy"  // đặt tên không ý ngihax
-const dayLaMotCaiTenRatLaHayDoChinhLa = "huy"  // dài dòng
+// var x = 1;
+// var X = 1;
+// let y;
+// const PI = 3.14; 
+// const c = 3*(10**8)
+// var x1$
+// let y_2
+// const ____z_____
+// const name = "huy"
+// const oidf = "huy"  // đặt tên không ý ngihax
+// const dayLaMotCaiTenRatLaHayDoChinhLa = "huy"  // dài dòng
 /** 2. QUY TẮC ĐẶT TÊN (để đặt cho biến, hàm, đối tượng... hoặc bất cứ cái gì cần đặt tên)
  *  - Phân biệt chữ hoa, chữ thường. Nghĩa là fullName và FullName là 2 tên khác nhau
  *  - Chỉ sử dụng các ký tự sau khi đặt tên: các chữ cái, chữ số, dầu gạch dưới (_)
@@ -32,15 +32,15 @@ const dayLaMotCaiTenRatLaHayDoChinhLa = "huy"  // dài dòng
  *      + Snake case: first_name, LAST_NAME
  */
 
-var fullName = "John Smith"
-var age = 30
-var isStudent = true
+// var fullName = "John Smith"
+// var age = 30
+// var isStudent = true
 
-var a = "John Smith"; // Tên biến quá ngắn và không nói lên ý nghĩa của biến
-var 2ndAddress = "123 Main St"; // Tên biến bắt đầu bằng số
-var this_is_my_variable_name = "test"; // Tên biến quá dài và khó đọc
-var let = "test"; // Tên biến trùng với từ khóa trong JavaScript
-var myvariabl/.e = "test"; // Tên biến sử dụng ký tự đặc biệt
+// var a = "John Smith"; // Tên biến quá ngắn và không nói lên ý nghĩa của biến
+// var 2ndAddress = "123 Main St"; // Tên biến bắt đầu bằng số
+// var this_is_my_variable_name = "test"; // Tên biến quá dài và khó đọc
+// var let = "test"; // Tên biến trùng với từ khóa trong JavaScript
+// var myvariabl/.e = "test"; // Tên biến sử dụng ký tự đặc biệt
 
 
 /** 3. COMMENT TRONG JS

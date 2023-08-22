@@ -1,56 +1,21 @@
-// var x = 1*2
-// var y = 1/2 + 1/0 - 3**4 + x**2 - x%"10"
-// // var x = 1 + 1 + "2" + 3 // x là biểu thức trả về giá trị là 1 => y sẽ được gán giá trị là 1
-// // // "11" + 2 +3 >> "112" +3 >> "1123"
-// // // "11" +2 + 3
-// // // 2 + "2" +3 >> "22" + 3 >> 223
- 
-// console.log("x=",x, "kiểu dữ liệu là:",typeof x)
-
-// // number
-// 1
-// 2.5
-// -1
-// -1.7
-// // String
-// ""
-// '' 
-// ``
-// "kjhkjgh"
-// "a"
-// "1"
-// "''"
-// '"abv"' 
-// "true"
-// // Boolean
-// true
-// false
-// // underfined
-// undefined
-// // null
-// null;
-// // object
-// []  //  array
-// {}  //  object
-// // function
-// function a(){} // hàm
+/** 6. TOÁN TỬ SỐ HỌC >> Biểu thức (tham số quy về number hoặc đôi khi là string) trả về 1 số (đôi khi là chuỗi)
+ *  +   --> Phép cộng
+ *  -   --> Phép trừ  (chuỗi chữ >> lỗi, chuối số >> số, true >> 1 , false >> 0, null >>0; underfined >> lỗi)
+ *  *   --> Phép nhân
+ *  /   --> Phép chia
+ *  **  --> Phép luỹ thừa
+ *  %   --> Phép chia lấy dư // 10 % 3 == 1
+ *  ++  --> Phép tăng 1 đơn vị (dùng cho biến)
+ *  --  --> Phép giảm 1 đơn vị (dùng cho biến)
+ */
 
 
-// x = true
-// y = false
 
-// console.log(true&&false&&true)
+// Giống : cả 2 đều có tác dụng là tăng biến x lên 1 đơn vị
+// Khác: khác về giá trị 
+//  ++x: trả về giá trị của x sau khi được tăng
+//  x++: trả về giá trị của x trước khi được tăng
 
-// console.log(false||false||false)
+let x = 10
 
-// console.log(!true)
-
-// var name = "huy"
-// var str = `tên tôi là ${name}`
-// console.log(str)
-
-let x = 1
- x = x + "" // string
- x = x - 0  // number
- x = !!x    // boolean 
-console.log(typeof x)
+console.log(++x/2+x++*2 + x) // 11/2 + 11*2 +12
